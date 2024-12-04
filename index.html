@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In A Row Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>In A Row Game</h1>
+        <div class="controls">
+            <button class="mode-button">Play vs Bot</button>
+            <select class="difficulty-select" disabled>
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button class="reset-button">Reset Game</button>
+        </div>
+        <div class="game-status">Player 1's Turn</div>
+        <div class="game-board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
